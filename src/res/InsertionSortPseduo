@@ -1,0 +1,24 @@
+Insertion Sort to Sort allItems Array in ascending price 
+
+LOOP through Array starting at element [1]
+    SET value to Item.price loop is On
+    SET current to Item at index loop in on
+
+    SET toCompare to index loop is on
+
+        WHILE toCompare > 0 && Array[toCompare - 1].getPrice > value
+           SET Array[toCompare] to Array[toCompare - 1]
+           SET toCompare to toCompare - 1
+        END While
+    Array[toCompare] = current
+END LOOP
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+This program is designed to be able to store antiques over various 
+repositories and allows actions to be carried out on them, these actions are as follows : 
+---------------------------------------------------------------------------------------------------------------------
+Items can be deleted from all repositories once they are sold regardless of where they are sold at,
+this is displayed by the ability for the program to remove an item from allItems as well as allSets using remove
+everywhere button
+
+Items can also be removed from purely one set or purely allItems and left in sets, this is just added functionality
+
+Items removed from sets can be replaced with an applicable similar item using the replace buttons use 12719
+to show this
+
+All items are individually identified even if they are of the same type,
+displayed by ability to have multiple copies of same item with unique ID.
+
+
+Updates the price of the set when replacement found, tells you saving or price increase
+
+Show using 3 repositories by deleting item from allItems and Two different sets use 12719.
+
+Efficient search in the form of the getItem button, it uses a brute force implementation. Searches 3 repositories
+
+Notifies you of the repositories the item has been removed from in the form of a on screen message.
+

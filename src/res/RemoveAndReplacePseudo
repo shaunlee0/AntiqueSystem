@@ -1,0 +1,13 @@
+INPUT ItemNo
+GET Item of ItemNo 
+STORE Item in Removing
+Store Description of Removing in FindSimilar
+Find Removing in Sets
+Store SET it was found in as FoundSet
+
+
+LOOP through all items
+    IF (Current Item.getDescription.equals(FindSimilar) && !(Current Item.getItemNo == input ItemNo)
+        Current Item = Item to replace in SET
+        FoundSet.InsertLink(Current Item)
+        
